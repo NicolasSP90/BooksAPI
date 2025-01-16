@@ -15,13 +15,21 @@ Os livros pesquisados na API serão salvos em banco local utilizando JPA.
 * VM Option: -Duser.countr=US, -Duser.language=en
 * PostgreSQL Driver
 * Spring Data JPA
-* jackson.core
-* dev.langchain4j
+* Jackson
+* Langchain (Ainda não utilizado - Futuramente será para integrar com a API do Gemini)
 
 ## Menu de Interações
 
-1- Pesquisa na API e salva no banco
+1- Adicionar Livro ao Banco de Dados
 
-2-
+2- Listar Livros Armazenados
 
-0- Sair
+3- Listar Autores Armazenados
+
+4- Listar Livros em um Idioma
+
+5- Top 5 Livros mais Baixados
+
+6- Top 5 Autores com mais Livros Baixados
+
+0- Encerrar
